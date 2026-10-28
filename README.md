@@ -10,3 +10,7 @@ The left ESP32 can also be connected to an optional external screen via the I2C 
 Programming the two ESP32s can be done by connecting to the single USBC connector on the PCB which has the two USB data lines, USB1 and USB2 connected to each ESP32 respectively, this means that each ESP32 can be programmed seperately depending on the orientaion of the USB connector, there is an LED under each ESP32 to indicate which ESP32 is connected to the flasher, this uses the CC1/CC2 connections.  One drawback to this approach is that you must use a USB C to USB C connection cable which seperates the USB data connections, a USB A to C cable will not work because it shorts out the two USB busses. 
 
 <img width="2300" height="1200" alt="image" src="https://github.com/user-attachments/assets/104252e2-552b-4ced-a7f1-4e8f55dfe06c" />
+
+To help identify which ESP32 is connected to the USB port each ESP32 has an LED next to its own USB Connector that will illuminate to show which ESP32 is connected.
+## Simplified connection diagram
+<img width="1037" height="203" alt="image" src="https://github.com/user-attachments/assets/d75e0612-34d2-4f7b-b057-7c5b46d7fe75" />
