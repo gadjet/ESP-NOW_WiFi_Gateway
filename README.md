@@ -13,4 +13,4 @@ Programming the two ESP32s can be done by connecting to the single USBC connecto
 
 To help identify which ESP32 is connected to the USB port each ESP32 has an LED next to its own USB Connector that will illuminate to show which ESP32 is connected.
 ## Simplified connection diagram
-<img width="1037" height="203" alt="image" src="https://github.com/user-attachments/assets/d75e0612-34d2-4f7b-b057-7c5b46d7fe75" />
+
